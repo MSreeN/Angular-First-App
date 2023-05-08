@@ -1,0 +1,12 @@
+button{
+  padding: 5px 8px;
+  border: none;
+  background-color: inherit;
+  transition: all 0.2s;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(93, 93, 201);
+  color: white;
+}
