@@ -9,6 +9,9 @@ import { TasksComponent } from './components/tasks/tasks.component';
 import { TaskItemComponent } from './components/task-item/task-item.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FormsModule } from '@angular/forms';
+import { ServerComponent } from './server/server.component';
+import { SuccessComponent } from './success/success.component';
+import { WarningComponent } from './warning/warning.component';
  
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FormsModule } from '@angular/forms';
     HeaderComponent,
     ButtonComponent,
     TasksComponent,
-    TaskItemComponent
+    TaskItemComponent,
+    ServerComponent,
+    SuccessComponent,
+    WarningComponent
   ],
   imports: [
     BrowserModule,
