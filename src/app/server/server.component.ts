@@ -10,4 +10,7 @@ export class ServerComponent{
   serverId: number = 10;
   serverAvl: string= "offline"
 
+  ServerStatus(){
+    return this.serverAvl;
+  }
 }
